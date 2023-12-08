@@ -1,5 +1,5 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 
 const FirstPage = () => {
   return (
@@ -8,4 +8,9 @@ const FirstPage = () => {
     </View>
   );
 };
+const styles = StyleSheet.create({
+  text: {
+    color: 'white',
+  },
+});
 export default FirstPage;
